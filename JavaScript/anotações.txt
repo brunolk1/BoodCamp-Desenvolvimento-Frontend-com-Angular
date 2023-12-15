@@ -1,0 +1,7 @@
+Marcação "===": Sempre use a marcação "===" para nivel de comparação, é o padrão e não se confunde em um projeto grande.
+
+*if* (operador de condicional mais usado) = sempre será montado com if (variavel true) {será usado o codigo que estiver aqui dentro }
+
+O *!*: é a negação da constante que estiver dentro do () do if anterior. Ou usa "else" (se não) para otmisar o projeto.
+
+*else*: é a negativa otimizada do *if* anterior sendo usada nessa estrutura else {constant contraria} 
