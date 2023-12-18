@@ -1,0 +1,1 @@
+"Funções imediatamente usadas": São feita em prioriadades a função que estiver entre "()" e com isso ela não precisa ser invocada, deixando ela como prioriadade. Assim quando estiver com varias funções a que estiver entre "()" não precisa estar escrevendo (lembrando que ao final de escrever o codigo da função dendo do "()" colocar tambem logo em seguida () vazio). 
