@@ -36,3 +36,6 @@ if (formaDePagamento === 1) {
     console.log (aplicandoJuros(precoEtiqueta, 10));
 }
 
+aplicandoJuros()
+
+
