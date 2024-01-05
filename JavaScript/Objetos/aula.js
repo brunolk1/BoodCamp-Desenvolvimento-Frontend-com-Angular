@@ -10,7 +10,7 @@ class Pessoa {
     }
 
     descrever() {
-        console.log('Meu nome é ${this.nome} e minha idade é ${this.idade}');
+        console.log(`Meu nome é ${this.nome} e minha idade é ${this.idade}`);
     }
 }
 
@@ -32,3 +32,5 @@ const bruno = new Pessoa('Bruno', 29);
 const franciele = new Pessoa('Franciele', 27);
 
 compararPessoas(bruno, franciele);
+
+
