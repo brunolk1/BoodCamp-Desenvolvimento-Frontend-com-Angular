@@ -8,23 +8,22 @@ class escolherCarros {
     cor;
     mediaDeGastos;
 
-    constructor (marca, cor) {
+    constructor (marca, cor, mediaDeGastos) {
         this.marca = marca;
         this.cor = cor;
-        this.mediaDeGastos = (5.09 * (100/ 9));
+        this.mediaDeGastos = mediaDeGastos;
     }
 
-        resultado() {
-            console.log(`Marca do carro ${this.marca} e a cor do carro é ${this.cor} e o consumo do carro vai é ${this.mediaDeGastos}`);
-        }
-
+    calcularGastoDePercurso (distanciaEmKm, precoCombustivel) {
+        return distanciaEmKm * this.mediaDeGastos * precoCombustivel;
+    }
         
 
 }
-this.mediaDeGastos = (5.09 * (100/ 7));
 
-const onix = new escolherCarros ('onix', 'prata');
-const corolla = new escolherCarros ('Corolla', 'Preto')
 
-console.log(onix,);
-console.log(corolla);
+const onix = new escolherCarros ('Chevrolet', 'prata', 1 / 9);
+console.log(onix.calcularGastoDePercurso(73 , 5))
+
+const corolla = new escolherCarros ('Toyota', 'Preto', 1/20);
+console.log(corolla.calcularGastoDePercurso(73 , 5))
