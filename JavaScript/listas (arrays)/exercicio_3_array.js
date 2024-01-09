@@ -1,10 +1,11 @@
-const numerosPares = [];
+// 3) Faça um programa que dado uma lista de nomes imprima os nomes que começem com a letra "V".
 
-    for (let i = 0; i < 10; i++) {
-        const numeroPar = i % 2 === 0;
-        if (numeroPar) {
-            numerosPares.push(i);
-        }
+const nomes = ['rafa', 'carlos', 'vinicios', 'alice', 'viviane'];
+
+for (let i = 0; i < nomes.length; i++); {
+    if (nomes[i].charAt(0) === 'v'); {
+        console.log (nomes[i]);
     }
+    
+}
 
-    console.log(numerosPares);
